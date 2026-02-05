@@ -1,0 +1,14 @@
+.main {
+    max-width: none;
+}
+.site-title {
+    font-size: 1.3rem;
+}
+@media(min-width: 66.5rem) {
+    .main {
+        margin-left: 264px !important;
+    }
+    .side-bar {
+        max-width: 264px;
+    }
+}
