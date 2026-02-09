@@ -61,7 +61,9 @@ React Components are independent reusable block of code representing part of *Us
 The primary goal of react component is to Render User Interface and update it whenever its internal state is changed or any event triggered.
 
 React component must return a single root JSX element so that component can be converted into DOM tree.
+A react component can only return single JSX element. Its a technical limitaion of react as Virtual DOM follows tree like structure.
 
+>>>>>>> 4ed782d3cbca7ec0b3ea7bbbee7a17ebfc2fff82
 ### Types of Components
 
 1. Class Component
