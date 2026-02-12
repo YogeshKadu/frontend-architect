@@ -61,6 +61,8 @@ React Components are independent reusable block of code representing part of *Us
 The primary goal of react component is to Render User Interface and update it whenever its internal state is changed or any event triggered.
 [it works in isolation]
 
+It accepts props as an input abd returns a JSX code as output which then converted into react createElement code.
+
 React component must return a single root JSX element so that component can be converted into DOM tree.
 A react component can only return single JSX element. Its a technical limitation of react as Virtual DOM follows tree like structure.
 
@@ -73,6 +75,7 @@ A react component can only return single JSX element. Its a technical limitation
 
 Class components are React components written using ES6 class syntax that provide built-in support for state management, lifecycle methods, and controlled rendering of UI based on data changes.
 The class component extends React.Component to inherit React’s core functionality, including access to props, state, lifecycle methods, and the render() mechanism that enables controlled and dynamic UI updates.
+Also known as stateful component.
 
 **Example**
 
@@ -88,6 +91,7 @@ class class_name extends React.Component {
 
 Functional components are React components written as JavaScript functions that define the UI by returning JSX.
 Functional components can accept props as input and return JSX that describes what the component should render.
+Also known as stateless component.
 
 **Example**
 
@@ -96,6 +100,11 @@ function function_name(props) {
    return  <h1>Hello, {props.name}</h1>;
 }
 ```
+
+
+## Props:
+
+Props are 
 
 
 [Virtual DOM]: https://www.geeksforgeeks.org/reactjs/reactjs-virtual-dom
