@@ -22,8 +22,8 @@ React operates by creating an in-memory [virtual DOM] rather than directly manip
 It performs necessary manipulations within this virtual representation before applying changes to the actual browser DOM.
 
 {: .note}
-> ReactJS [Virtual DOM] is an in-memory representation of the actual DOM (Document Object Model). React uses this lightweight JavaScript object to track changes in the application state and efficiently update the actual DOM only where necessary.
->
+> ReactJS [Virtual DOM] is an in-memory representation of the actual DOM (Document Object Model). 
+> React uses this lightweight JavaScript object to track changes in the application state and efficiently update the actual DOM only where necessary.
 
 ## Features of React
 
@@ -104,7 +104,44 @@ function function_name(props) {
 
 ## Props:
 
-Props are 
+Props in react are properties passed from parent to child a component to customize its behavior and appearance.
+They are read-only meaning the receiving component cannot modify them, ensuring unidirectional data flow from parent to children.
+We can consider props as an argument passed to the function. they look similar to setting HTML tag attribute.
+
+{: .note}
+> Change in props causes Child component to be rerender.
+
+```jsx
+
+const ExampleChild = (props) => {
+  return <header>{props.title}</header>
+}
+
+const ExampleParent = () => {
+  return <ExampleChild title="Child" />
+}
+```
+
+### Props.children:
+
+Its used when Components do not know about there children's ahead of time.
+
+```jsx
+
+const ExampleChild = (props) => {
+  return <header>{props.children}</header>
+}
+
+const ExampleParent = () => {
+  return <ExampleChild>Hello Child</ExampleChild>
+}
+```
+
+## State
+
+State in react is a built-in Component level object that is use to store and manage data change over time.
+Every state change re-renders the component.
+
 
 
 [Virtual DOM]: https://www.geeksforgeeks.org/reactjs/reactjs-virtual-dom
