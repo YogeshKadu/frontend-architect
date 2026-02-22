@@ -9,7 +9,7 @@ parent: Foundation
 
 ## Definition
 
-React is an open source JavaScript library for building User interfaces, developed by the Facebook software engineer `Jordan Walke`.
+React is an open source JavaScript library for building interactive single page application, developed by the Facebook software engineer `Jordan Walke`.
 
 React follows component based architecture. where each component represent a single, unique block of JSX code which can be reused in application.
 
@@ -141,8 +141,6 @@ const ExampleParent = () => {
 
 State in react is a built-in Component level object that is use to store and manage data change over time.
 Every state change re-renders the component.
-
-
 
 [Virtual DOM]: https://www.geeksforgeeks.org/reactjs/reactjs-virtual-dom
 [React Roadmap]: https://www.tutorialspoint.com/reactjs/reactjs_roadmap.htm
