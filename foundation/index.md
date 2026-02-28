@@ -1,10 +1,10 @@
 ---
-title: Foundation
+title: React Foundation
 nav_order: 3
-layout: home
+layout: default
 ---
 
-# Foundation
+# React Foundation
 
 Your only goal right now is clarity and consistency, not speed.
 

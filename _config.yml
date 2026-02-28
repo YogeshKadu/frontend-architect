@@ -4,6 +4,9 @@ theme: just-the-docs
 
 url: https://yogeshkadu.github.io/frontend-architect/
 
+enable_copy_code_button: true
+
+
 mermaid:
   version: "10.9.5"
 
