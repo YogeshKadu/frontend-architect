@@ -11,8 +11,20 @@ parent: React Foundation
 ## Definition
 {: .no_toc}
 
-React Props or properties are the arguments or information use to communicate between the component.
-Primarily props allows a parent component to send data to its child components.
+Props in react are properties passed from parent to child a component to customize its behavior and appearance.
+They are read-only meaning the receiving component cannot modify them, ensuring unidirectional data flow from parent to children.
+We can consider props as an argument passed to the function. they look similar to setting HTML tag attribute.
+
+---
+<!-- 
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+--- -->
+
 In JSX props resembles HTML attributes.
 
 Props are immutable, they are the readonly variable. this insures unidirectional data flow.

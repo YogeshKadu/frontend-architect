@@ -94,7 +94,8 @@ const ExampleParent = () => {
 ## State
 
 State in react is a built-in Component level object that is use to store and manage data change over time.
-Every state change re-renders the component.
+
+When state changes, React automatically re-renders the component to reflect the updated data.
 
 [Virtual DOM]: https://legacy.reactjs.org/docs/faq-internals.html
 [React Roadmap]: https://www.tutorialspoint.com/reactjs/reactjs_roadmap.htm
