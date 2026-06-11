@@ -4,7 +4,7 @@ layout: default
 nav_order: 1
 ---
 
-# Frontend Architect / Senior React Engineer
+# Frontend Study
 
 ## Step1: Study
 
@@ -24,12 +24,12 @@ You need:
 - 2–3 solid, well-documented projects
 - Clean GitHub
 - Ability to explain design decisions clearly
-
+<!-- 
 # Target (12 months)
 
 **Role:** Senior Frontend Engineer / Frontend Architect Track<br/>
 **Target CTC:** 15–22 LPA (first jump)<br/>
-**Tech focus:** React + System Design + Quality
+**Tech focus:** React + System Design + Quality -->
 
 # Syllabus
 
@@ -67,11 +67,11 @@ You need 3 projects that scream “senior”.
 	* Versioning discussion
 	* Performance tradeoffs
 
-## Interview Weaponization
+<!-- ## Interview Weaponization -->
 
-Now we convert skill → salary.
+<!-- Now we convert skill → salary.
 
 You must prepare:
 * Frontend system design answers
 * Tradeoff discussions
-* Past project storytelling (STAR method)
+* Past project storytelling (STAR method) -->

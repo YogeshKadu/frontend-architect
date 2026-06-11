@@ -49,3 +49,19 @@ const ExampleParent = () => {
   return <ExampleChild>Hello Child</ExampleChild>
 }
 ```
+
+---
+
+## Prop drilling
+
+refers to the process of passing data from a parent component down to nested child components through props.
+This situation occurs when a prop needs to be passed through several layers of nested components to reach a deeply nested child component that actually needs the prop.
+
+**Example :-** 
+
+```mermaid
+graph TD;
+  start([root]) --> nodeA[Node A];
+  start -- data --> nodeB[Node B];
+  nodeB -- data --> nodeD[Node D];
+```
