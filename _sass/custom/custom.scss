@@ -1,14 +1,17 @@
-// .main {
-//     max-width: none;
-// }
-// .site-title {
-//     font-size: 1.3rem;
-// }
-// @media(min-width: 66.5rem) {
-//     .main {
-//         margin-left: 264px !important;
-//     }
-//     .side-bar {
-//         max-width: 264px;
-//     }
-// }
+h1,h2,h3,h4,h5 {
+    scroll-margin: 1.25rem;
+}
+.main {
+    max-width: none;
+}
+.site-title {
+    font-size: 1.3rem;
+}
+@media(min-width: 66.5rem) {
+    .main {
+        margin-left: 264px !important;
+    }
+    .side-bar {
+        max-width: 264px;
+    }
+}

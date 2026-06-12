@@ -24,8 +24,8 @@ You need:
 - 2–3 solid, well-documented projects
 - Clean GitHub
 - Ability to explain design decisions clearly
-<!-- 
-# Target (12 months)
+
+<!-- # Target (12 months)
 
 **Role:** Senior Frontend Engineer / Frontend Architect Track<br/>
 **Target CTC:** 15–22 LPA (first jump)<br/>
